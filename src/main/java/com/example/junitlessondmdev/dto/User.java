@@ -4,9 +4,9 @@ import lombok.AllArgsConstructor;
 import lombok.Value;
 
 @Value(staticConstructor = "of")
-@AllArgsConstructor
+
 public class User {
-    Integer id;
+    Long id;
     String username;
     String password;
 }
